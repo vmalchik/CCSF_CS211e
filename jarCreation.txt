@@ -1,0 +1,17 @@
+[vmalchik@hills tmp]$ jar cfm MyJar.jar Manifext.txt edu/home/*.class myUtil/*.class
+[vmalchik@hills tmp]$ ls
+Add.java  edu  HelloWorld.java  Manifext.txt  MyJar.jar  myUtil  store
+[vmalchik@hills tmp]$ mv Add.java HelloWorld.java Manifext.txt store
+[vmalchik@hills tmp]$ ls
+edu  MyJar.jar  myUtil  store
+[vmalchik@hills tmp]$ rm -r myUtil/ edu
+[vmalchik@hills tmp]$ ls
+MyJar.jar  store
+[vmalchik@hills tmp]$ java -jar MyJar.jar
+Hello World
+3
+
+Note: .
+Main-Class: edu.home.HelloWorld
+Class-Path: myUtil.Add
+

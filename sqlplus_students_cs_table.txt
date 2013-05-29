@@ -1,0 +1,76 @@
+java -cp jdbc.jar:. GradeCalculator
+
+
+create table students_cs (
+ id integer not null
+  , last_name varchar2(25) not null
+ , first_name varchar2(25) not null
+  , quiz integer not null
+  , midterm integer not null
+ , final integer not null
+ ,  CONSTRAINT id_pk PRIMARY KEY (id)
+ , constraint quiz_range check(quiz >= 0 and quiz <= 100)
+  , constraint id_range check(id > 0)
+ , constraint midterm_range check(midterm >=0 and midterm <= 100)
+, constraint final_range check(final >=0 and final <=100)
+  );
+
+NOTE:
+ALTER TABLE Persons
+ADD PRIMARY KEY (P_Id)
+
+ALTER TABLE Persons
+ADD CONSTRAINT pk_PersonID PRIMARY KEY (P_Id,LastName)
+
+ALTER TABLE Persons
+DROP PRIMARY KEY
+
+ALTER TABLE Persons
+DROP CONSTRAINT pk_PersonID
+
+  insert into students_cs (id, last_name, first_name, quiz, midterm, final)
+  values 
+  (1, 'Grimes', 'Rick', 100, 100, 100);
+  
+  insert into students_cs (id, last_name, first_name, quiz, midterm, final)
+  values 
+  (2, 'Grimes', 'Carl', 70, 80, 90);
+  
+  insert into students_cs (id, last_name, first_name, quiz, midterm, final)
+  values 
+  (3, 'Mazzara', 'Glen', 85, 85, 95); 
+ 
+  insert into students_cs (id, last_name, first_name, quiz, midterm, final)
+  values 
+  (4, 'Greene', 'Maggie', 80, 85, 90); 
+  
+  insert into students_cs (id, last_name, first_name, quiz, midterm, final)
+  values 
+  (5, 'Horvath', 'Dale', 75, 83, 91); 
+  
+  insert into students_cs (id, last_name, first_name, quiz, midterm, final)
+  values 
+  (6, 'Dixon', 'Merle', 50, 60, 72); 
+
+
+  insert into students_cs (id, last_name, first_name, quiz, midterm, final)
+  values 
+  (7, 'Holden', 'Laurie', 31, 68, 99); 
+
+  insert into students_cs (id, last_name, first_name, quiz, midterm, final)
+  values 
+  (8, 'Blake', 'Philip', 47, 57, 69); 
+
+  insert into students_cs (id, last_name, first_name, quiz, midterm, final)
+  values 
+  (9, 'Rhee', 'Glenn', 89, 99, 100);
+
+select * from FinalGrades;
+
+
+create table FinalGrades (
+ int integer not null
+ ,last_name varchar2(25) not null ,
+first_name varchar2(25) not null ,
+average_score number(5,2) null ,
+final_grade char(1) null);

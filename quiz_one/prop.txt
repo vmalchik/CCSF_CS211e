@@ -1,0 +1,130 @@
+<?xml version = "1.0" ?>
+<properties>
+  <java>
+    <runtime>
+      <name> Java(TM) SE Runtime Environment </name>
+    </runtime>
+  </java>
+  <java>
+    <vm>
+      <version> 21.0-b17 </version>
+    </vm>
+  </java>
+  <java>
+    <vm>
+      <vendor> Oracle Corporation </vendor>
+    </vm>
+  </java>
+  <java>
+    <vendor>
+      <url> http://java.oracle.com/ </url>
+    </vendor>
+  </java>
+  <java>
+    <vm>
+      <name> Java HotSpot(TM) 64-Bit Server VM </name>
+    </vm>
+  </java>
+  <java>
+    <vm>
+      <specification>
+        <name> Java Virtual Machine Specification </name>
+      </specification>
+    </vm>
+  </java>
+  <java>
+    <runtime>
+      <version> 1.7.0-b147 </version>
+    </runtime>
+  </java>
+  <java>
+    <awt>
+      <graphicsenv> sun.awt.Win32GraphicsEnvironment </graphicsenv>
+    </awt>
+  </java>
+  <java>
+    <endorsed>
+      <dirs> C:\Program Files\Java\jre7\lib\endorsed </dirs>
+    </endorsed>
+  </java>
+  <java>
+    <io>
+      <tmpdir> C:\Users\Victor\AppData\Local\Temp\ </tmpdir>
+    </io>
+  </java>
+  <java>
+    <vm>
+      <specification>
+        <vendor> Oracle Corporation </vendor>
+      </specification>
+    </vm>
+  </java>
+  <java>
+    <library>
+      <path> C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files\Common Files\Microsoft Shared\Windows Live;c:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Users\Victor\AppData\Local\Android\android-sdk\tools;C:\Users\Victor\AppData\Local\Android\android-sdk\platform-tools;C:\Program Files\Java\jdk1.7.0\bin;C:\Program Files (x86)\QuickTime\QTSystem\;. </path>
+    </library>
+  </java>
+  <java>
+    <specification>
+      <name> Java Platform API Specification </name>
+    </specification>
+  </java>
+  <java>
+    <class>
+      <version> 51.0 </version>
+    </class>
+  </java>
+  <java>
+    <awt>
+      <printerjob> sun.awt.windows.WPrinterJob </printerjob>
+    </awt>
+  </java>
+  <java>
+    <specification>
+      <version> 1.7 </version>
+    </specification>
+  </java>
+  <java>
+    <class>
+      <path> C:\Users\Victor\Desktop\Word Documents\CCSF CS211e\homework_four\bin </path>
+    </class>
+  </java>
+  <java>
+    <vm>
+      <specification>
+        <version> 1.7 </version>
+      </specification>
+    </vm>
+  </java>
+  <java>
+    <home> C:\Program Files\Java\jre7 </home>
+  </java>
+  <java>
+    <specification>
+      <vendor> Oracle Corporation </vendor>
+    </specification>
+  </java>
+  <java>
+    <vm>
+      <info> mixed mode </info>
+    </vm>
+  </java>
+  <java>
+    <version> 1.7.0 </version>
+  </java>
+  <java>
+    <ext>
+      <dirs> C:\Program Files\Java\jre7\lib\ext;C:\Windows\Sun\Java\lib\ext </dirs>
+    </ext>
+  </java>
+  <java>
+    <vendor> Oracle Corporation </vendor>
+  </java>
+  <java>
+    <vendor>
+      <url>
+        <bug> http://bugreport.sun.com/bugreport/ </bug>
+      </url>
+    </vendor>
+  </java>
+</properties>

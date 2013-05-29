@@ -1,0 +1,81 @@
+Name: Victor Malchikov
+File: hw3_output.txt
+Homework: 3
+
+First: Start RMI Registry on port 4001:
+[vmalchik@hills ~]$ rmiregistry 4001
+
+Second: Start Server:
+[vmalchik@hills ~]$ java US_States_Server
+Constructing server implementation...
+USStatesServer ready
+
+Third: Run Client:
+[vmalchik@carl ~]$ java US_States_Client
+List of registered objects:
+USStatesServer
+Enter type one: state/capital/quit
+state
+Enter State regex:
+^S
+South Carolina
+South Dakota
+Enter type one: state/capital/quit
+state
+Enter State regex:
+a$
+Alaska
+Arizona
+California
+Florida
+Georgia
+Indiana
+Iowa
+Louisiana
+Minnesota
+Montana
+Neberaska
+Nevada
+North Carolina
+North Dakota
+Oklahoma
+Pennsylvania
+South Carolina
+South Dakota
+Virginia
+West Virginia
+Enter type one: state/capital/quit
+capital
+Enter Capital regex:
+^S
+Sacramento
+Springfield
+Saint Paul
+Santa Fe
+Salem
+Salt Lake City
+Enter type one: state/capital/quit
+capital
+Enter Capital regex:
+^a
+No matches found.
+Enter type one: state/capital/quit
+^A
+Invalid entry.
+Enter type one: state/capital/quit
+capital
+Enter Capital regex:
+^A
+Atlanta
+Augustina
+Annapolis
+Albany
+Austin
+Enter type one: state/capital/quit
+state
+Enter State regex:
+^a
+No matches found.
+Enter type one: state/capital/quit
+quit
+[vmalchik@carl ~]$

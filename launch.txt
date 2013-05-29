@@ -1,0 +1,5 @@
+http://www.coderanch.com/t/584004/java/java/Fixes-Error-find-load-jar
+http://www.coderanch.com/t/584004/java/java/Fixes-Error-find-load-jar
+
+Original: "C:\Program Files\Java\jre7\bin\java.exe" "%1"
+

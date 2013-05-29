@@ -1,0 +1,70 @@
+/**Name: Victor Malchikov
+ * Class: CS211E
+ * Prof: Abbas Moghtanei
+ * Homework: 1
+ * File: Server_Client_Interaction_Example.txt
+*/
+
+***********************CLIENT SIDE***************************
+***1***Request/Response 
+[vmalchik@hills ~]$ java StateClientVM
+Welcome...connecting to server...
+Connected to StateServerVM /147.144.1.2
+Please enter State/Capital/exit:
+Sacramento
+response: California
+Please enter State/Capital/exit:
+California
+response: Sacramento
+Please enter State/Capital/exit:
+New York
+response: Albany
+Please enter State/Capital/exit:
+Bad State
+Error. Bad request.
+Please enter State/Capital/exit:
+Albany
+response: New York
+
+***2***Secret Word Entered (optional)
+Please enter State/Capital/exit:
+hw1
+Closing Sockets.
+Please enter State/Capital/exit:
+
+java.util.NoSuchElementException: No line found
+        at java.util.Scanner.nextLine(Scanner.java:1585)
+        at StateClientVM.main(StateClientVM.java:53)
+		
+***3**New Client - Exit 
+[vmalchik@hills ~]$ java StateClientVM
+Welcome...connecting to server...
+Connected to StateServerVM /147.144.1.2
+Please enter State/Capital/exit:
+exit
+Good Bye.
+[vmalchik@hills ~]$ java StateClientVM
+Welcome...connecting to server...
+Connected to StateServerVM /147.144.1.2
+Please enter State/Capital/exit:
+exit
+Good Bye.
+[vmalchik@hills ~]$
+
+***************SERVER SIDE********************
+***1***Request/Response 
+New Client Connected
+reqest: Sacramento
+reqest: California
+reqest: New York
+reqest: Bad State
+reqest: Albany
+
+***2***Secret Word Entered (optional)
+reqest: hw1
+Closing Server Socket.
+
+***3**New Client - Exit 
+[vmalchik@hills ~]$ java StateServerVM
+New Client Connected
+New Client Connected

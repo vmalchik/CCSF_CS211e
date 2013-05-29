@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>test</comment>
+<entry key="calendar.japanese.type">LocalGregorianCalendar</entry>
+<entry key="calendar.taiwanese.type">LocalGregorianCalendar</entry>
+<entry key="calendar.thai-buddhist.type">LocalGregorianCalendar</entry>
+<entry key="calendar.japanese.eras">name=Meiji,abbr=M,since=-3218832000000;  name=Taisho,abbr=T,since=-1812153600000; name=Showa,abbr=S,since=-1357603200000;  name=Heisei,abbr=H,since=600220800000</entry>
+<entry key="calendar.taiwanese.eras">name=MinGuo,since=-1830384000000</entry>
+<entry key="calendar.thai-buddhist.year-boundary">day1=4-1,since=-79302585600000; day1=1-1,since=-915148800000</entry>
+<entry key="calendar.thai-buddhist.eras">name=BuddhistEra,abbr=B.E.,since=-79302585600000</entry>
+</properties>

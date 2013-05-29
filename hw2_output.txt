@@ -1,0 +1,26 @@
+Name: Victor Malchikov
+HW: 2 
+File: hw2_output.txt
+
+[vmalchik@hills ~]$ java -cp jdbc.jar:. GradeCalculator
+id |  last_name |  first_name |  quiz |  midterm |  final |
+1      Rick      Grimes         100         100         100
+2      Carl      Grimes         70         80         90
+3      Glen      Mazzara         85         85         95
+4      Maggie      Greene         80         85         90
+5      Dale      Horvath         75         83         91
+6      Merle      Dixon         50         60         72
+9      Glenn      Rhee         89         99         100
+7      Laurie      Holden         31         68         99
+8      Philip      Blake         47         57         69
+Number of records: 9
+id | last_name | first_name | average_score | final_grade |
+9 Glenn Rhee 96.0 A
+1 Rick Grimes 100.0 A
+4 Maggie Greene 85.0 B
+3 Glen Mazzara 88.0 B
+2 Carl Grimes 80.0 B
+5 Dale Horvath 83.0 B
+7 Laurie Holden 66.0 D
+6 Merle Dixon 60.0 D
+8 Philip Blake 57.0 F

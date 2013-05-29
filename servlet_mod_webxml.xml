@@ -1,0 +1,14 @@
+	<!-- 
+	Name: Victor Malchikov
+	Description: Add the following code to web.xml that resides in tomcat folders 
+	             $TOMCAT_HOME/webapps/examples/WEB-INF/web.xml
+	-->
+	
+	<servlet>
+	  <servlet-name>StatesServlet</servlet-name>
+	  <servlet-class>StatesServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+      <servlet-name>StatesServlet</servlet-name>
+      <url-pattern>/servlets/servlet/StatesServlet</url-pattern>
+    </servlet-mapping>
